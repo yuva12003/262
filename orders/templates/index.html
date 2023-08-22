@@ -1,0 +1,14 @@
+<!DOCTYPE>
+<html>
+    <body>
+        <h1>ORDERS</h1>
+        <table border ="10">
+            {% for x in pro %}
+            <tr>
+            <td>{{ x.product}}</td>
+            <td>{{ x.price}}</td>
+            </tr>
+        {% endfor %}
+      </table>
+    </body>
+</html>
